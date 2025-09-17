@@ -102,7 +102,7 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: "Test the AI-Enhanced XSS Scanner Platform backend comprehensively"
+user_problem_statement: "Test the AI-Enhanced XSS Scanner Platform frontend comprehensively"
 
 backend:
   - task: "XSS Scan Creation (POST /api/scans)"
