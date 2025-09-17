@@ -401,7 +401,11 @@ async def ai_triage_vulnerabilities(request: AITriageRequest):
                 vulnerabilities.append(Vulnerability(**vuln))
         
         if not vulnerabilities:
-            raise HTTPException(status_code=404, detail="No vulnerabilities found")
+            return {
+                "triage_analysis": "No vulnerabilities found for the provided IDs. Please check that the vulnerability IDs are correct and that vulnerabilities exist in the database.",
+                "vulnerability_count": 0,
+                "session_id": f"triage_{uuid.uuid4()}"
+            }
         
         # GPT-4 triage analysis
         gpt4_chat = await get_gpt4_chat(f"triage_{uuid.uuid4()}")
