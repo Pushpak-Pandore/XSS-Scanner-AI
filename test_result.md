@@ -342,9 +342,14 @@ metadata:
 
 test_plan:
   current_focus:
-    - "AI Vulnerability Triage error handling fix"
+    - "Dashboard Navigation and UI Consistency"
+    - "Security Dashboard Statistics and Charts"
+    - "New Scan Interface and Form Validation"
+    - "Scan Management and Results Modal"
+    - "AI Assistant NLP Interface"
+    - "Frontend-Backend Integration"
   stuck_tasks: []
-  test_all: false
+  test_all: true
   test_priority: "high_first"
 
 agent_communication:
