@@ -399,4 +399,4 @@ For support and questions:
 
 ---
 
-**Made with ❤️ using Emergent AI Platform**
+**AI-Enhanced XSS Scanner Platform - Secure, Intelligent, Reliable**
