@@ -13,7 +13,7 @@ from typing import Dict, List, Any
 import uuid
 
 # Backend URL from environment
-BACKEND_URL = "https://xsssecure.preview.emergentagent.com/api"
+BACKEND_URL = "https://essentials-only.preview.emergentagent.com/api"
 
 class XSSScanner_BackendTester:
     def __init__(self):
